@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>мой блог </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <h1 class="logo">Мой блог</h1>
+            <nav class="nav">
+                <a href="/">Главная</a>
+                <a href="/">О себе</a>
+                <a href="/">Контакты</a>
+        </nav>
+            </header>
+
+            <section id="Home">
+                <h1>Привет, я Касум </h1>
+                <p>Веб-разработчик и дизайнер</p>
+                <a href="projects" class="btn">Мои работы </a>
+            </section>
+
+            <section id="projects">
+                <h2>Мои проекты</h2>
+                <div class="filters">
+                    <button data-filter="all">Все</button>
+                    <button data-filter="web">Веб-проекты</button>
+                    <button data-filter="design">Дизайн</button>                         
+                    <div class="projects-grid">
+                        
+                    </div>
+                 </section>
+
+                 <section id="about">
+                    <h2>Я очень сильно увлекаюсь программированием.Имею опыт программирования около нескольких недель.И дальше хочу продвигаться по этой теме </h2>
+                </section>
+ 
+                <section id="contact">
+                    <h2>Для связи со мной позвоните по данному номеру: 79284864860 или отправьте письмо на электроную почту Ahma628628@gmail.com</h2>
+                    <form id="contact-form">
+                        <input type="text" name="name" placeholder="Ваше имя"  required>
+                        <input type="email" name="email" placeholder="email" required>
+                        <textarea name="message" placeholder="Сообщение"required></textarea>
+                        <button type="submit">Отправить</button>
+                        </form>
+                </section>
+
+                <footer>
+                    <p>&copy; 2026 Мое портфолио. Все права защищены</p>
+                </footer>
+
+                <link rel="stylesheet" href="script.js">
+</body>
+</html>
